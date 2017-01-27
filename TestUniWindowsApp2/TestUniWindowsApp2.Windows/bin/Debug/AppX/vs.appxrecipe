@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>TITUS</Machine>
+    <WindowsUser>Tim</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>63419423-7fef-47be-96bb-a2b5a2b17590</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Tim</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\Users\Tim\documents\visual studio 2015\Projects\TestUniWindowsApp2\TestUniWindowsApp2\TestUniWindowsApp2.Windows\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>97E83E294DB9584C9D965958E2D6E211CDCD77ADEA902308F4B34EBF1A6A872B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>63419423-7fef-47be-96bb-a2b5a2b17590_1.0.0.0_neutral__2rk7jkcx89dyp</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>63419423-7fef-47be-96bb-a2b5a2b17590_2rk7jkcx89dyp!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>63419423-7fef-47be-96bb-a2b5a2b17590</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Tim</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Users\Tim\documents\visual studio 2015\Projects\TestUniWindowsApp2\TestUniWindowsApp2\TestUniWindowsApp2.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-12-18T15:48:54.122</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Users\Tim\documents\visual studio 2015\Projects\TestUniWindowsApp2\TestUniWindowsApp2\TestUniWindowsApp2.Windows\bin\Debug\TestUniWindowsApp2.Windows.exe">
+      <PackagePath>TestUniWindowsApp2.Windows.exe</PackagePath>
+      <Modified>2016-12-18T15:48:53.327</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\Tim\documents\visual studio 2015\Projects\TestUniWindowsApp2\TestUniWindowsApp2\TestUniWindowsApp2.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-07T03:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\Tim\documents\visual studio 2015\Projects\TestUniWindowsApp2\TestUniWindowsApp2\TestUniWindowsApp2.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-07T03:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\Tim\documents\visual studio 2015\Projects\TestUniWindowsApp2\TestUniWindowsApp2\TestUniWindowsApp2.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-07T03:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\Tim\documents\visual studio 2015\Projects\TestUniWindowsApp2\TestUniWindowsApp2\TestUniWindowsApp2.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-07T03:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\Tim\documents\visual studio 2015\Projects\TestUniWindowsApp2\TestUniWindowsApp2\TestUniWindowsApp2.Windows\bin\Debug\TestUniWindowsApp2.Windows.xr.xml">
+      <PackagePath>TestUniWindowsApp2.Windows.xr.xml</PackagePath>
+      <Modified>2016-12-18T15:48:53.023</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\Tim\documents\visual studio 2015\Projects\TestUniWindowsApp2\TestUniWindowsApp2\TestUniWindowsApp2.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-12-18T15:48:53.097</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\Tim\documents\visual studio 2015\Projects\TestUniWindowsApp2\TestUniWindowsApp2\TestUniWindowsApp2.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2016-12-18T15:48:53.101</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\Tim\documents\visual studio 2015\Projects\TestUniWindowsApp2\TestUniWindowsApp2\TestUniWindowsApp2.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-12-18T15:48:53.627</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

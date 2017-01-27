@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="TestUniWindowsApp2.BalancePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TestUniWindowsApp2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Name="BlanceGrid">
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="3*"/>
+
+
+
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row ="0" x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Current Balance" FontSize="14" VerticalAlignment="Top"/>
+        <Button Grid.Row ="0" x:Name="button" Content="+" HorizontalAlignment="Left" MinHeight="15"  Margin="0,23,0,0" VerticalAlignment="Top" Width="174"/>
+
+        <Button Grid.Row ="0" x:Name="button1" Content="-" HorizontalAlignment="Left" Margin="197,23,0,0" VerticalAlignment="Top" MinHeight ="20" Width="174"/>
+
+        <Border Grid.Row ="1" Background="#251560"/>
+
+        <TextBlock Grid.Row="1" Text="{Binding Row.OneString, Mode =OneWay}">
+        </TextBlock>
+    </Grid>
+</Page>
+ 

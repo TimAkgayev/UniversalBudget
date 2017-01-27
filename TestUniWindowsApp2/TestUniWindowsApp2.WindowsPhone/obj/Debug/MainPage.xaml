@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="TestUniWindowsApp2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TestUniWindowsApp2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="3*"/>
+
+
+
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row ="0" Background="#251546"/>
+        <Border Grid.Row ="1" Background="#251560"/>
+        
+        <TextBlock x:Name="textBlock" Grid.Row ="0" HorizontalAlignment="Left" Margin="108,157,0,0" TextWrapping="Wrap" Text="Starting:" VerticalAlignment="Top" Height="23" Width="76" FontSize="20"/>
+        <TextBox x:Name="StartingAmountTB" Grid.Row ="0" Margin="219,148,0,0"  TextWrapping="Wrap" FontSize ="18" Text="100" VerticalAlignment="Top" MinHeight="20" Height="32" HorizontalAlignment="Left" Width="94"/>
+
+        <Button x:ConnectionId='1' x:Name="button" Grid.Row="1" Content="Start" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="149,174.167,0,0"                       />
+
+
+    </Grid>
+
+
+</Page>
+
